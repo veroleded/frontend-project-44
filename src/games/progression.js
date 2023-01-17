@@ -10,7 +10,7 @@ function gameQuestionAndAnswer() {
   let initialValue = randomInteger(0, 100);
   for (let i = 0; i <= 16; i += 1) {
     if (i === skipPlace) {
-      progression.push('...');
+      progression.push('..');
       answer = initialValue;
       initialValue += progressionStep;
     } else if (i === placeOfStoppingProgression) {
